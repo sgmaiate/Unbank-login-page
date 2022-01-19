@@ -1,0 +1,109 @@
+body {
+  background-image: linear-gradient(to right, #0073cd, rgb(9, 245, 186));
+}
+
+.logotipo {
+  width: 6%;
+  height: 6%;
+  padding: 1rem;
+  transition: transform 1.5s;
+  align-self: flex-start;
+}
+
+/*.logotipo:hover{
+    transform: rotate(360deg);
+}*/
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formulario {
+  background-color: #ffffff;
+  width: 28rem;
+  height: 36rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formulario p {
+  margin-top: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  color: #222222;
+  font-weight: 600;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input {
+  width: 20rem;
+  height: 2rem;
+  margin: 20px 0 60px 0;
+  border: none;
+  border-bottom: 1px dotted red;
+}
+
+input:focus {
+  border-color: none;
+  color: rgb(130, 10, 209);
+  outline: none;
+}
+
+.login {
+  margin-bottom: 20px;
+  background: transparent;
+  color: black;
+  width: 10em;
+  height: 3em;
+  border-radius: 8px;
+  border: rgb(0, 183, 255) 2px solid;
+  /*Classe de quando o botão está desabilitado*/
+}
+
+.login-active {
+  margin-bottom: 20px;
+  background: rgb(0, 183, 255);
+  color: white;
+  width: 10em;
+  height: 3em;
+  border-radius: 8px;
+  border: rgb(0, 183, 255) 2px solid;
+  /*Classe de quando o botão está habilitado*/
+}
+
+.login-active:hover {
+  background-color: #0178cd;
+  color: #fff;
+}
+
+.link {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-decoration: none;
+  margin-bottom: 0.8rem;
+  color: #0178cd;
+  cursor: pointer;
+  user-select: none;
+  margin: 15px;
+}
+
+.link:hover {
+  color: #000;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
