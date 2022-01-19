@@ -64,13 +64,11 @@ function compararAlterarSenha() {
 
 function mascaraCPF(text) {
   var v = text.value;
-
   if (isNaN(v[v.length - 1])) {
     // impede entrar outro caractere que não seja número
     text.value = v.substring(0, v.length - 1);
     return;
   }
-
   text.setAttribute("maxlength", "14");
   if (v.length == 3 || v.length == 7) text.value += ".";
   if (v.length == 11) text.value += "-";

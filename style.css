@@ -80,6 +80,8 @@ input:focus {
   height: 3em;
   border-radius: 8px;
   border: rgb(0, 183, 255) 2px solid;
+  cursor: pointer;
+  transition: all 0.5s ease;
   /*Classe de quando o botão está habilitado*/
 }
 
@@ -118,4 +120,5 @@ input:focus {
   .logotipo {
     width: 15%;
     height: 15%;
+  }
 }
